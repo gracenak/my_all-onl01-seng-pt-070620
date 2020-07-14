@@ -7,10 +7,11 @@ def my_all?(collection)
   new_collection << yield(collection[i])
   i = i + 1
   end
-  
 end
 
-
+  if new_colection.include?(false)
+    false
+  
 
 #my_all? {|i| i < collection.length}
   
