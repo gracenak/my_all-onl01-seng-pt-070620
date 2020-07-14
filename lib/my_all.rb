@@ -9,7 +9,7 @@ def my_all?(collection)
   end
 end
 
-new_collection.all?(collection) {|i| i< collection.length}
+my.all?(collection) {|i| i< collection.length}
 end
 
 #my_all? {|i| i < collection.length}
