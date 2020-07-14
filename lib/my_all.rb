@@ -7,9 +7,10 @@ def my_all?(collection)
   yield(collection[i])
   i = i + 1
   end
+  new_collection << {|i| i< collection.length}
 end
 
-my.all?(collection) {|i| i< collection.length}
+
 
 #my_all? {|i| i < collection.length}
   
