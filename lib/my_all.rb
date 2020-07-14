@@ -1,14 +1,14 @@
 require 'pry'
 
 def my_all?(collection)
-  new_collection = []
+  block_return_values = []
   i = 0
   while i < collection.length
-  new_collection << yield(collection[i])
+  block_return_values << yield(collection[i])
   i = i + 1
   end
 end
-if new_collection.include?(false)
+if block_return_values.include?(false)
     false
   else
     true
