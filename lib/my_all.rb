@@ -10,7 +10,7 @@ end
 
 #my_all? {|i| i < collection.length}
   
-my_all? {|i| i < collection.length}
+#my_all? {|i| i < collection.length}
 #my_all?(collection) {|i| i < collection.length}
 
 #def my_all?([1,2,3])
