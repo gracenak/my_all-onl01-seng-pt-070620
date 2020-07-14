@@ -1,6 +1,7 @@
 require 'pry'
 
-def my_all?(collection)
+def my_all?
+  
   i = 0
   while i < collection.length
   yield(collection[i])
@@ -10,7 +11,7 @@ end
 
 my_all? {|i| i < collection.length}
   
-my_all?(collection) {|i| i < collection.length}
+my_all? {|i| i < collection.length}
 #my_all?(collection) {|i| i < collection.length}
 
 #def my_all?([1,2,3])
