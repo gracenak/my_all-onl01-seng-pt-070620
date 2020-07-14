@@ -11,7 +11,10 @@ end
 
   if new_colection.include?(false)
     false
-  
+  else
+    true
+  end
+end
 
 #my_all? {|i| i < collection.length}
   
