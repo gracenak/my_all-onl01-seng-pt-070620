@@ -1,6 +1,7 @@
 require 'pry'
 
 def my_all?(collection)
+  collecton = []
   i = 0
   while i < collection.length
   yield(collection[i])
